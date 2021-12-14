@@ -40,7 +40,7 @@ const DisplayTable = ({ data, repositories }) => {
                     </div>
                     <div className="content">
                       <a
-                        href={repo.html_url} rel='noopener'
+                        href={repo.html_url} rel="noopener"
                         className="header" 
                         target="_blank" 
                       >
