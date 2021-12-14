@@ -39,10 +39,9 @@ const DisplayTable = ({ data, repositories }) => {
                       <i className="large github middle aligned icon"></i>
                     </div>
                     <div className="content">
-                      <a
-                        href={repo.html_url} rel="noopener"
+                        <a
+                        href={repo.html_url} target="_blank" without rel="noreferrer"
                         className="header" 
-                        target="_blank" 
                       >
                         {repo.name}
                       </a>
